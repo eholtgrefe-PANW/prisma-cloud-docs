@@ -56,6 +56,8 @@ Select the following *Advanced settings* for specific scenarios.
 * Select *Scan the image every build, even if it hasn't changed since the last build*
 
 ** To avoid errors after the first time you create the Docker image.
+
+** Often you will see the error 'failed to find image...' by setting the 'Ignore Image Development Time' flag you can resolve this issue.
 ====
 
 . Add a post-build action to publish the scan results in Jenkins directly.
